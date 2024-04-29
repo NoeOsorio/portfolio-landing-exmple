@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2em 5em;
+  position: fixed;
+  width: 100%;
+  background: transparent;
+}
+
+nav *{
+    color: white;
+}
+
+.logo {
+  flex: 12;
+}
+
+.logo > h1 {
+  margin: 0;
+}
+
+/* > Indica que se van a aplicar estilos a los hijos directos */
+nav > a {
+  flex: 2;
+  text-decoration: none;
+}
