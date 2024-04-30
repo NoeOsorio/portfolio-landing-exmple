@@ -1,10 +1,11 @@
 import "./Latest.css";
 import Henrry from "../../assets/images/henrry.png";
+import TitleH2 from "../../components/TitleH2";
 
 const Latest = () => {
   return (
     <div className="latest">
-      <h2>Latest</h2>
+      <TitleH2>My Latest Work</TitleH2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
         consequuntur labore aliquam eligendi velit, maxime eaque nisi. Aut

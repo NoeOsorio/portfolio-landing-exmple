@@ -6,12 +6,6 @@
   padding: 5em;
 }
 
-.latest > h2 {
-  font-size: 3em;
-  font-weight: 900;
-  color: hotpink;
-  margin: 0;
-}
 
 .latest > p{
     width: 50%;
